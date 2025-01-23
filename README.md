@@ -6,33 +6,6 @@ This project aims to predict the presence of heart disease in patients using var
 ## Dataset
 The dataset used in this project is the [Heart Disease Dataset](https://www.kaggle.com/alexsingth/heart-disease-dataset) from Kaggle. It contains 918 entries with 12 features.
 
-## Project Structure
-Heart-Disease-Prediction/
-│
-├── data/
-│   ├── heart.csv
-│   └── README.md
-│
-├── notebooks/
-│   ├── Heart_Disease_Analysis.ipynb
-│   └── README.md
-│
-├── models/
-│   ├── logistic_regression_model.pkl
-│   ├── random_forest_model.pkl
-│   └── README.md
-│
-├── scripts/
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── README.md
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-
 ## Installation
 1. Clone the repository:
    ```bash
