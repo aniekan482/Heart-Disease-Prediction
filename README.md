@@ -8,15 +8,30 @@ The dataset used in this project is the [Heart Disease Dataset](https://www.kagg
 
 ## Project Structure
 Heart-Disease-Prediction/
-├── data/ # Contains the dataset
-├── notebooks/ # Jupyter notebooks for analysis and modeling
-├── models/ # Saved models
-├── scripts/ # Python scripts for preprocessing, training, and evaluation
-├── README.md # Project overview
-├── requirements.txt # List of dependencies
-├── LICENSE # License file
-└── .gitignore # Files and directories to ignore
-
+│
+├── data/
+│   ├── heart.csv
+│   └── README.md
+│
+├── notebooks/
+│   ├── Heart_Disease_Analysis.ipynb
+│   └── README.md
+│
+├── models/
+│   ├── logistic_regression_model.pkl
+│   ├── random_forest_model.pkl
+│   └── README.md
+│
+├── scripts/
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── README.md
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
 
 ## Installation
 1. Clone the repository:
